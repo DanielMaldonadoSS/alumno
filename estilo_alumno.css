@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav li {
+    flex-grow: 1;
+  }
+  nav a {
+    display: block;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    border: solid 1px #424242;
+    transition: all 0.5s;
+    text-transform: uppercase;
+  }
+  nav a:hover {
+    background-color: #4fc3f7;
+  }
+  
+section {
+  display: grid;
+  margin-bottom: 0.1em;
+  
+}
+#main {
+  width:330px;
+	display:grid;
+	grid-gap: 1rem;
+	padding:1rem;
+  justify-content: center;
+}
+
+h1{
+  font-size: 1.5rem;
+  margin-left: 1.7rem;
+  
+}
+
+.bloque .textos {
+	margin-left: 0.rem; 
+	margin-right: 0.rem;
+	padding-bottom: 0.5rem;
+	border-width: 1px;
+}
+
+.bloque {
+	font-family: 'Merriweather', serif;
+	box-shadow: 3px 5px 28px 0px rgba(0,0,0,0.75);
+}
+.textos h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3rem;
+	font-weight: 300;
+	margin-top: 1rem;
+  margin-left: 0.5rem;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #19191B;
+}
+.textos p {
+	font-size:1.2rem;
+  margin-left: 0.5rem;
+}
+
+aside {
+  display: grid;
+  grid-gap: 0.5rem;
+  padding: 0.5rem;
+  background-color: floralwhite;
+}
+
+footer {
+  font-family: "Lato", sans-serif;
+  font-size: 0.8em;
+  color: #ffffff;
+  background-color: #666;
+  padding: 0.3rem;
+  padding-left: 2.2em;
+}

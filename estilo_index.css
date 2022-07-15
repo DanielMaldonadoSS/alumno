@@ -93,8 +93,6 @@ aside {
 	padding:0.5rem;
 	background-color:LightGray ;
 }
-.card {
-}
 .card img {
 	width:100%;
 	height:auto;
@@ -152,4 +150,9 @@ nav ul {
 nav a {
 	margin-bottom:0.2em;
 }
+.bloque p, a{
+    font-size: 2em;
+    align-items: center;
+    margin: 10px 10px;
+  }
 }
